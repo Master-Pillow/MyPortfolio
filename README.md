@@ -22,7 +22,7 @@ Các dự án tập trung vào chiều sâu kỹ thuật, bảo mật và trí t
 * **🌐 Web Development:** Xây dựng hệ thống Full-stack (như trang web này).
 * **📡 Network:** Các giải pháp mạng và bảo mật hạ tầng.
 ### 📈 Economics & Data (Associates' Focus - UEH)
-Các dự án của cộng sự (đến từ UEH) tập trung vào phân tích dữ liệu và tài chính định lượng:
+Ngoài ra, còn có các dự án của bạn mình (đến từ UEH) tập trung vào phân tích dữ liệu và tài chính định lượng:
 * **📊 Quantitative Finance (Quant):** Ứng dụng toán học và lập trình vào tài chính, tối ưu hóa danh mục đầu tư.
 * **💼 Business Analyst (BA):** Phân tích nghiệp vụ và tối ưu hóa quy trình doanh nghiệp.
 * **📉 Data Analysis (DA):** Khai phá dữ liệu kinh doanh và trực quan hóa (Data Visualization).
@@ -51,7 +51,7 @@ Ngoài các dự án, tụi mình còn duy trì mục **Blog** để chia sẻ:
 ---
 ## 🤝 Đóng góp (Contributing)
 
-Dự án này là mã nguồn mở và cũng là dự án đầu tiên của tụi mình. Chúng mình rất ming chờ mọi sự đóng góp hoặc báo lỗi từ các bạn để dự án càng ngày càng phát triển.
+Dự án này là mã nguồn mở và cũng là dự án đầu tiên của tụi mình. Chúng mình rất mong chờ mọi sự đóng góp hoặc báo lỗi từ các bạn để dự án càng ngày càng phát triển.
 
 ---
 ## 📬 Liên hệ (Contact)
