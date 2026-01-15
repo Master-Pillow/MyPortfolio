@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mysql_db:
+    image: mysql:8.0
+    container_name: portfolio_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: portfolio_db
+    ports:
+      - '3306:3306'
+    volumes:
+      # Dữ liệu sẽ được lưu vào thư mục 'data' nằm ngay trong folder database
+      - ./data:/var/lib/mysql
