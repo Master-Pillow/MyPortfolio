@@ -1,0 +1,33 @@
+name: Frontend CI
+
+on:
+  push:
+    branches: [ "main", "frontend" ] # Chạy khi code vào main hoặc frontend
+    paths:
+      - 'frontend/**' # Chỉ chạy khi có thay đổi trong thư mục frontend
+  pull_request:
+    branches: [ "main", "frontend" ]
+
+jobs:
+  build-frontend:
+    runs-on: ubuntu-latest
+
+    # QUAN TRỌNG: Mọi lệnh sẽ chạy trong thư mục frontend
+    defaults:
+      run:
+        working-directory: ./frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js for Frontend
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: 'npm'
+          # Chỉ đường dẫn chính xác tới file lock của frontend
+          cache-dependency-path: frontend/package-lock.json
+
+      - run: npm ci                 # Cài thư viện (Clean Install)
+      - run: npm run build --if-present # Thử build
+    # - run: npm test             # (Bỏ comment dòng này nếu có test)
